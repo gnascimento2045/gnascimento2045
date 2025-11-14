@@ -53,7 +53,7 @@
 ## 🛰️ Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gnascimento2045&show_icons=true&theme=tokyonight&hide_border=false" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=gnascimento2045&show_icons=true&theme=tokyonight&hide_border=true" height="150"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=gnascimento2045&layout=compact&theme=tokyonight&hide_border=false" height="150"/>
 </div>
 
@@ -87,6 +87,6 @@
 
 <br clear="both">
 
-![tetris animation](https://raw.githubusercontent.com/gnascimento2045/gnascimento2045/output/tetris-contribution-grid.svg)
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
----
+###
