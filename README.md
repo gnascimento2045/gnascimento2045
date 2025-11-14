@@ -87,6 +87,6 @@
 
 <br clear="both">
 
-![tetris animation](https://raw.githubusercontent.com/<seu-usuario>/<seu-usuario>/output/tetris-contribution-grid.svg)
+![tetris animation](https://raw.githubusercontent.com/gnascimento2045/<seu-usuario>/output/tetris-contribution-grid.svg)
 
 ---
