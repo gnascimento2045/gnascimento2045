@@ -1,8 +1,8 @@
-name: GitHub Profile Metrics – Tetris
+name: Generate Tetris Calendar
 
 on:
   schedule:
-    - cron: "0 */12 * * *" 
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,15 +11,18 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Usuário do GitHub
+          # Obrigatório
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
+
           template: classic
           filename: dist/tetris-contribution-grid.svg
 
-          # Plugins
-          plugins_tetris: yes
-          plugins_tetris_duration: 30
-          plugins_tetris_idle: 3
+          # Efeito mais próximo do Tetris
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_animations: yes
+          config_output: svg
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
