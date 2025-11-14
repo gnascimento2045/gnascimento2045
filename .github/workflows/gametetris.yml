@@ -11,23 +11,24 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Obrigatório
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
-
+          
           template: classic
-          filename: dist/tetris-contribution-grid.svg
-
-          # Efeito mais próximo do Tetris
+          filename: metrics.plugin.isocalendar.svg
+          
+          # Calendário isométrico (visual mais interessante)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          
+          # Animações
           config_animations: yes
-          config_output: svg
-
+          config_timezone: America/Sao_Paulo
+          
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
