@@ -1,27 +1,25 @@
-name: Generate Tetris Game
+name: GitHub Profile Metrics – Tetris
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" 
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Generate Tetris SVG
-        uses: Platane/snk@master
-        id: tetris
+      - uses: lowlighter/metrics@latest
         with:
-          github_user_name: ${{ github.repository_owner }}
-          mode: tetris
-          color_block: "#00eaff"
-          color_background: "transparent"
-          svg_out_path: dist/tetris-contribution-grid.svg
+          # Usuário do GitHub
+          user: ${{ github.repository_owner }}
+          template: classic
+          filename: dist/tetris-contribution-grid.svg
+
+          # Plugins
+          plugins_tetris: yes
+          plugins_tetris_duration: 30
+          plugins_tetris_idle: 3
 
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v2.6.0
