@@ -1,50 +1,65 @@
 <h2 align="left">👋 Hey, how’s it going?</h2>
-<h2 align="left">I'm Gabriel — a Full Stack Developer focused on learning, improving, and delivering clean, high-quality code.</h2>
+<h2 align="left">I'm Gabriel — a Full Stack Developer focused on learning, improving, and delivering clean, scalable and high-quality code.</h2>
 
 <img align="right" height="180" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
 
-🚀 Currently working on projects at **Corelab**, helping build efficient and scalable solutions.  
-💻 Bachelor in **Information Systems**, passionate about logic, clean code, and good development practices.  
-🛸 Always driven by challenges — constantly learning, building, and evolving.  
-📚 Focused on Web projects, APIs, automation and MVC architecture.
+🚀 Currently working at **Corelab**, helping build efficient and scalable solutions.  
+💻 Bachelor in **Information Systems**, passionate about logic, clean code, and well-structured architecture.  
+🛸 Driven by challenges — always learning, building, and evolving.  
+📚 Focused on Web Development, APIs, automation, and MVC patterns.
 
 ---
 
 ## 🧠 About Me
 
-- 🛠️ I believe **good code should be clean, standardized, and easy to maintain**.  
-- ✨ I enjoy working with **organized structure, clear versioning, well-defined tasks, and simple documentation**.  
-- 🔭 Always learning and applying best practices daily.
+- 🛠️ I believe **good code must be clean, standardized, and easy to maintain**.  
+- ✨ I enjoy working with **organized structures, clear versioning, simple documentation, and well-defined tasks**.  
+- 🔭 Always learning and applying best practices every day.
 
 ---
 
 ## ⚡ Tech & Tools
 
 <div align="left">
-  <!-- Frontend -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" height="35"/>
-
-  <!-- Backend -->
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="35"/>
-  <!-- Others -->
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="35"/>
-  <img width="10" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="35"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" />
 </div>
 
-# 📡 Where to Find Me
+---
+# Where to Find Me
 
 <div align="left">
   <a href="https://instagram.com/gsn.1308" target="_blank">
@@ -63,27 +78,17 @@
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="35"/>
   </a>
 </div>
-
 ---
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/gnascimento2045/gnascimento2045/output/snake.svg" alt="Snake animation" />
-
----
-
-# 🔥 My Stats
+# Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=gnascimento2045&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" />
+  <img src="https://streak-stats.demolab.com?user=gnascimento2045&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="220" />
 </div>
-
-
-# 🟡 Contributions
+---
+# Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gnascimento2045/gnascimento2045/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gnascimento2045/gnascimento2045/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/gnascimento2045/gnascimento2045/output/pacman-contribution-graph.svg">
 </picture>
-
