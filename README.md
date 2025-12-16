@@ -78,8 +78,9 @@
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="35"/>
   </a>
 </div>
+
 ---
-# Stats
+# MY STATS
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=gnascimento2045&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5" height="220" />
