@@ -2,11 +2,14 @@ name: Generate 3D Contributions
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "* */12 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,11 +21,12 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: gnascimento2045   # 👈 COLOCA ISSO EXATO
 
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "generated 3d graph"
+          git commit -m "generate 3d graph" || echo "no changes"
           git push
