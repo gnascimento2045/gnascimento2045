@@ -1,0 +1,26 @@
+name: Generate 3D Contributions
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # roda todo dia
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          USERNAME: gnascimento2045
+          MAX_REPOS: 100
+
+      - name: Commit & Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "generated 3d profile"
+          git push
